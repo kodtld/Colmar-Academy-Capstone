@@ -237,9 +237,20 @@ margin-bottom: 0.5rem;
 
 .coursebox { background-color: yellow;
     max-width: 30%;
-    
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .coursebox img {
     max-width: 100%;
 }
+
+.coursebox h3 {
+padding: 1rem;
+}
+
+.coursebox p {
+padding-left: 1rem;
+padding-bottom: 0.5rem;
+}
+
