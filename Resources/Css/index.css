@@ -181,7 +181,7 @@ margin-bottom: 0.5rem;
      justify-content: center;
      align-items: center;
      padding-right: 1rem;
-     background-color: azure;
+    
      
      
 }
@@ -209,7 +209,7 @@ margin-bottom: 0.5rem;
 /* LEARNING SECTION */
 
 #startlearn {
-    background-color: blueviolet;
+    
     display: flex;
     
     flex-direction: column;
@@ -218,16 +218,21 @@ margin-bottom: 0.5rem;
     padding-bottom: 3rem;
 }
 
+.startlearntxt {
+    font-weight: bold;
+}
+
 .courses {
-    background-color: skyblue;
+   
     display: flex;
    justify-content: space-between;
     min-width: 85%;
     max-width: 85%;
+    margin-top: 3rem;
 }
 
 .coursesboxes {
-    background-color: pink;
+    
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -235,7 +240,7 @@ margin-bottom: 0.5rem;
     
 }
 
-.coursebox { background-color: yellow;
+.coursebox { 
     max-width: 30%;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
@@ -252,5 +257,108 @@ padding: 1rem;
 .coursebox p {
 padding-left: 1rem;
 padding-bottom: 0.5rem;
+}
+
+/* THESIS SECTION */
+
+#thesis {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    
+
+}
+
+.thesistxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.thesistxt h2 {
+    font-weight: bold;
+}
+
+.thesiscont {
+    
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
+
+.thesiscont video {
+    width: 100%;
+    
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.thesisleft { 
+    max-width: 60%;
+
+}
+
+.thesiscont h3 { margin-bottom: 1rem;
+font-weight: bold;
+}
+
+.thesiscont p {
+    max-width: 50%;
+
+}
+
+.thesisright {
+ 
+    min-width: 38%;
+    margin-right: 2rem;
+    padding-left: 2rem;
+}
+
+.thesisrightbox {
+    
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    border: 0.5px solid seashell;
+}
+
+.thesisrightbox img {
+    max-width: 40%;
+    height: 10rem;
+}
+
+.righttxt {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    justify-content: center;
+}
+
+.righttxt p {
+    min-width: 95%;
+    margin-right: 1rem;
+}
+
+/* FOOTER SECTION */ 
+
+#footer nav a {
+    color: black;
+}
+
+
+
+#footer {
+    display: flex;
+    padding-top: 1rem;
+    border-top: 1px solid seashell;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footsplit {min-width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
