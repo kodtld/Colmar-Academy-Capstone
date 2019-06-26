@@ -109,7 +109,7 @@ span {
 }
 
 a {
-    font-family: font-family: "Noto Serif", serif;
+    font-family: "Noto Serif", serif;
 }
 
 .mobilenav {
@@ -646,6 +646,15 @@ color: white;
     border-bottom: 1px solid white;
 }
 
+#banner button:hover {
+    background-color: white;
+    color: #7BA694;
+}
+
+#banner button:active {
+    background-color: #558C74;
+}
+
 .bannerimagebox {
     min-width: 100%;
    margin-left: 0px;
@@ -801,13 +810,19 @@ font-size: 1.9rem;
         min-width: 95%;
     }
 
+    .mobcoursebox h3:active { background-color: #36755A;
+        
+    }
     .mobcoursebox h3 {
         padding: 2rem 1rem 2rem 1rem;
         background-color: #7BA694;
         margin: 0.5rem;
         font-weight: bold;
         color: white;
+        
     }
+
+    
 
 /* THESIS */
 
